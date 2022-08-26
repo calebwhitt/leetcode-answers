@@ -19,5 +19,13 @@ class Solution:
                 dict[num] = idx
 
 
+# There is always only one pair that satisfy the condition. We can represent this algebraically such that 
+
+# xa + xb = target                  therefore                     xa = target - xb
+
+# So long as we keep a record of all previous values in the nums list, we can compare the current value to it's only pair
+
+# ==================================================================================
 # Runtime: 100 ms, faster than 63.24% of Python3 online submissions for Two Sum.
 # Memory Usage: 15.2 MB, less than 24.20% of Python3 online submissions for Two Sum.
+# ==================================================================================
